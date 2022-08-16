@@ -19,7 +19,7 @@ An example image of the HTML page can be viewed by clicking [here](https://githu
 
 Selecting the "Scrape New Data" button will obtain the latest news, images, and facts about Mars. News titles and summaries are extracted from [NASA Mars Exploration Program News](https://data-class-mars.s3.amazonaws.com/Mars/index.html). The featured images are extracted from the [Jet Propulsion Laboratory's Space Images](https://data-class-jpl-space.s3.amazonaws.com/JPL_Space/index.html). Mars hemisphere images are extracted from [Astropedia](https://astrogeology.usgs.gov/search/results?q=hemisphere+enhanced&k1=target&v1=Mars). Finally, the Mars facts are gathered from [Galaxy Facts](https://data-class-mars-facts.s3.amazonaws.com/Mars_Facts/index.html). The scraping code used in this project is [scraping.py](https://github.com/Mishkanian/Mission-to-Mars/blob/main/scraping.py).
 
-After running [app.py](https://github.com/Mishkanian/Mission-to-Mars/blob/main/app.py), the extracted data is successfully stored in MongoDB as seen in the screenshot below. A mars_app database must exist in mongo for the code to properly run. 
+After running [app.py](https://github.com/rbono22/Mission-to-Mars/blob/main/app.py), the extracted data is successfully stored in MongoDB as seen in the screenshot below. A mars_app database must exist in mongo for the code to properly run. 
 ```terminal
 To confirm that the mars_app database exists, run the following command in mongo:
 > show dbs
